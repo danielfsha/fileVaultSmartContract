@@ -27,9 +27,7 @@ module.exports = {
     },
     taiko: {
         url: "https://rpc.jolnir.taiko.xyz",
-        accounts: [
-            '3d184a5279aaa8c5ccd44b20013ba72b46459f0aa147645e242be3ebc2b646c5',
-        ],
+        accounts: [process.env.PRIVATE_KEY],
     },
   },
 };
